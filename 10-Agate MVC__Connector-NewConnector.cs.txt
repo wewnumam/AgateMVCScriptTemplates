@@ -1,0 +1,18 @@
+using Agate.MVC.Base;
+
+    #ROOTNAMESPACEBEGIN#
+public class #SCRIPTNAME#Connector : BaseConnector
+{
+    private #SCRIPTNAME#Controller _#SCRIPTNAME#;
+
+    protected override void Connect()
+    {
+        #NOTRIM#
+    }
+
+    protected override void Disconnect()
+    {
+        #NOTRIM#
+    }
+}
+#ROOTNAMESPACEEND#

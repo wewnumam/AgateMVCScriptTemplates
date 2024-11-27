@@ -1,0 +1,34 @@
+using Agate.MVC.Base;
+using Agate.MVC.Core;
+using System.Collections;
+
+    #ROOTNAMESPACEBEGIN#
+public class #SCRIPTNAME#Launcher : SceneLauncher<#SCRIPTNAME#Launcher, #SCRIPTNAME#View>
+{
+    public override string SceneName {get {return "#SCRIPTNAME#";}}
+
+    protected override IController[] GetSceneDependencies()
+    {
+        return new IController[] {
+            #NOTRIM#
+        };
+    }
+
+    protected override IConnector[] GetSceneConnectors()
+    {
+        return new IConnector[] {
+            #NOTRIM#
+        };
+    }
+
+    protected override IEnumerator LaunchScene()
+    {
+        yield return null;
+    }
+
+    protected override IEnumerator InitSceneObject()
+    {
+        yield return null;
+    }
+}
+#ROOTNAMESPACEEND#

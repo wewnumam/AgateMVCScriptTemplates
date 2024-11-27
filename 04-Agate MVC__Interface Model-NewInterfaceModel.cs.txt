@@ -1,0 +1,8 @@
+using Agate.MVC.Base;
+
+    #ROOTNAMESPACEBEGIN#
+public interface I#SCRIPTNAME#Model : IBaseModel
+{
+    #NOTRIM#
+}
+#ROOTNAMESPACEEND#

@@ -1,0 +1,8 @@
+using Agate.MVC.Base;
+
+    #ROOTNAMESPACEBEGIN#
+public class #SCRIPTNAME#View : ObjectView<I#SCRIPTNAME#Model>
+{
+    #NOTRIM#
+}
+#ROOTNAMESPACEEND#

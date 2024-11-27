@@ -1,0 +1,8 @@
+using Agate.MVC.Base;
+
+    #ROOTNAMESPACEBEGIN#
+public class #SCRIPTNAME#Controller : DataController<#SCRIPTNAME#Controller, #SCRIPTNAME#Model, I#SCRIPTNAME#Model>
+{
+    #NOTRIM#
+}
+#ROOTNAMESPACEEND#
